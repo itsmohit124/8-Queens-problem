@@ -47,6 +47,7 @@ public class eightQueen{
             }
         }
         //lower right
+        r=row;
         for(int c=col;c<=7 && r<=7;c++,r++){
             if(board[r][c]==1){
                 return false;
